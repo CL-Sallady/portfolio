@@ -1,0 +1,52 @@
+.AboutPage{
+    padding: 0px 0px 50px 0px;
+    scroll-snap-type: x;
+}
+.about-section{
+    padding: 0px 10%;
+    /* display: flex; */
+}
+
+.about-section img{
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    padding: 0% 3% 1% 0%;
+    float: left; 
+    border-radius: 20% 0%;
+}
+.about-section p{
+    text-align: left; 
+}
+.about-title{
+    font-family: var(--display-ft);
+    font-size: 250%;
+    padding-bottom: 2px;
+    margin: 0px 35% 3% 35%;
+    border-bottom:  2px solid rgb(255, 128, 108);
+    border-radius: 5%;
+}
+.about-content{
+    line-height: 25px;
+    font-family: Helvetica, sans-serif;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    font-family: var(--main-ft);
+}
+.skill-object{
+    display: flex;
+    padding: 0px 0px 15px 0px;
+}
+
+.skill-object p{
+    padding-left: 5px;
+}
+
+.social-icon{
+    color: var(--scnd-color); 
+    font-size: 2em;
+    padding: 0px 20px;
+}

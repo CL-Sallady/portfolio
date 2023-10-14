@@ -1,0 +1,83 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+:root{
+  --main-ft: Helvetica, Arial, sans-serif;
+  --display-ft: 'Satisfy', cursive; 
+  --condensed-ft: 'Saira Extra Condensed', sans-serif;
+  /* font-family: 'Sacramento', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Tenor Sans', sans-serif; */
+  --scnd-color: #FF7A64;
+  --thrd-color: rgba(112, 88, 126, 0.7);
+  --light: rgb(231, 231, 231);
+  --dark-text: rgb(199, 199, 204);
+  --dark: rgb(28, 28, 30);
+}
+/* Nav Bar------------------------------------------------------------ */
+.NavBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  font-family: var(--condensed-ft);
+}
+.home-identifier{
+  max-width: 100px;
+  text-align: left;
+  font-family: 'Satisfy', cursive;
+  font-size: 200%;
+  line-height: 30px;
+}
+.nav{
+  all: unset;
+  margin: 0px 25px;
+  font-size: 155%;
+  font-weight: 400;
+}
+.nav:hover{
+  color: var(--scnd-color);
+  border-bottom: 1px solid var(--scnd-color)
+}
+.theme{
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 90%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.theme:hover{
+  border-color: var(--scnd-color);
+}
+
+/* Nav Bar------------------------------------------------------------ */
+
+.antd-divider {
+font-family: var(--condensed-ft);
+font-size: 150% !important ;
+padding: 20px 0px;
+}
+
+.dark{
+  width: 100%;
+  color: var( --dark-text);
+  background-color: var( --dark);
+}
+.light{
+  color: var( --dark);
+  background-color: var( --light);;
+}
+
+.dark-divider {
+  color: var( --dark-text) !important;
+  border-top: var( --scnd-color) !important;
+}
+
+.light-divider {
+  color: var( --dark) !important;
+  border-top: var( --dark) !important;
+}
