@@ -12,10 +12,15 @@
     object-position: 0 20%;
 }
 
+.web-description{
+    font-family: var(--main-ft);
+}
+
 .card-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0% 10%;
+    padding-bottom: 5%;
 }
 
 .card{
@@ -32,9 +37,14 @@
 }
 
 .card-title{
-    color: (246, 246, 241) !important;
+    color: var(--light) !important;
     font-size: 2em;
     font-family: var( --condensed-ft);
+}
+
+.card-title:hover{
+    color: var(--scnd-color) !important;
+    transition: .25s; 
 }
 
 .dark-card{

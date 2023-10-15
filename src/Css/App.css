@@ -27,7 +27,7 @@
   font-family: var(--condensed-ft);
 }
 .home-identifier{
-  max-width: 100px;
+  /* max-width: 100px; */
   text-align: left;
   font-family: 'Satisfy', cursive;
   font-size: 200%;
@@ -47,8 +47,6 @@
   max-width: 30px;
   max-height: 30px;
   margin-left: 90%;
-  border-radius: 50%;
-  cursor: pointer;
 }
 .theme:hover{
   border-color: var(--scnd-color);
@@ -59,17 +57,18 @@
 .antd-divider {
 font-family: var(--condensed-ft);
 font-size: 150% !important ;
-padding: 20px 0px;
 }
 
 .dark{
   width: 100%;
-  color: var( --dark-text);
-  background-color: var( --dark);
+  color: var( --dark-text)!important ;
+  background-color: var( --dark) !important;
+  transition: .5s;
 }
 .light{
-  color: var( --dark);
-  background-color: var( --light);;
+  color: var( --dark) !important;
+  background-color: var( --light)!important;
+  transition: .5s;
 }
 
 .dark-divider {
@@ -81,3 +80,5 @@ padding: 20px 0px;
   color: var( --dark) !important;
   border-top: var( --dark) !important;
 }
+
+/* ___________________________________________________ */

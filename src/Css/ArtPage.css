@@ -1,0 +1,23 @@
+/* .ArtPage{
+    height: 100vh;
+} */
+.art-title{
+    font-family: var(--display-ft);
+    font-size: 250%;
+    padding-bottom: 2px;
+    margin: 0px 35% 3% 35%;
+    border-bottom:  2px solid rgb(255, 128, 108);
+    border-radius: 5%;
+}
+
+.art-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15% 10% 15%;
+    justify-content: center;
+}
+
+.artwork{
+    width: 30%;
+    height: auto;
+}

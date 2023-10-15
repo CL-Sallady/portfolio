@@ -2,10 +2,11 @@ import '../Css/AboutPage.css';
 import { Divider } from 'antd';
 import { CheckSquareOutlined, LinkedinOutlined, GithubOutlined, InstagramOutlined, MailOutlined } from '@ant-design/icons';
 import aboutHero from '../Media/about-hero.jpg';
+import lapTop from '../Media/coding.svg';
 
 function AboutPage({ theme }) {
   const skills = [
-    'Javascript/ES6+', 'React.js', 'Node.js', 'PostgreSQL', 'SQL', 'Apollo', 'Graphql', 'Sequelize', 'Problem Solving', 'UX/UI Design', 'Adobe Creative Suite', 'MongoDB', 'OOP', 'Express.js', 'SAML/SSO Authentication', 'Figma', 'Python', 'Database Management', 'RESTful APIs', 'AWS Cloud'
+    'Javascript/ES6+', 'React.js', 'Node.js', 'PostgreSQL', 'SQL', 'Apollo', 'Graphql', 'Sequelize', 'Problem Solving', 'UX/UI Design', 'Adobe Creative Suite', 'MongoDB', 'OOP', 'Express.js', 'SAML/SSO Authentication', 'Figma', 'Database Management', 'RESTful APIs', 'AWS Cloud'
   ]
   const renderSkills = skills?.map( s => {
     return ( 
@@ -15,8 +16,8 @@ function AboutPage({ theme }) {
         </div>
     )
   })
+
   const dividerStyle = `antd-divider ${theme}-divider`
-  console.log(dividerStyle);
 
   return (
     <div className='AboutPage'>
@@ -29,11 +30,12 @@ function AboutPage({ theme }) {
 
             In hac habitasse platea dictumst. Maecenas finibus, diam dictum convallis mattis, mi nisl eleifend est, ac convallis erat orci et dui. Duis molestie mollis erat sit amet scelerisque. Donec tristique justo in velit placerat, elementum malesuada enim fringilla. Fusce porttitor iaculis hendrerit. Aenean id erat facilisis, vehicula ex in, vehicula quam. Donec tristique luctus nulla, mattis varius tortor finibus auctor.</p>
         </div>
-        <Divider plain className={dividerStyle}>SKILLS</Divider>
+        <Divider plain className={`${dividerStyle} about-divider`}>SKILLS</Divider>
+        <img className='coding-img' src={lapTop} alt={'Centered illustration of a computer with coding related imagery surrounding it.'} />
         <div className='skills-container'>
             {renderSkills}
         </div>
-        <Divider plain className={dividerStyle}>CONTACT ME</Divider>
+        <Divider plain className={`${dividerStyle} about-divider`}>CONTACT ME</Divider>
         <div className='contact-container'>
             <a className='social-icon' href='https://www.linkedin.com/in/chelby-sallady-9b5bbb148/' target="_blank" rel="noreferrer"><LinkedinOutlined /></a>
             <a className='social-icon' href='https://github.com/CL-Sallady' target="_blank" rel="noreferrer"><GithubOutlined /></a>

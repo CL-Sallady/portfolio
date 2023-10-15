@@ -30,6 +30,9 @@
     line-height: 25px;
     font-family: Helvetica, sans-serif;
 }
+.about-divider{
+    padding: 20px 0px;
+}
 .skills-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,4 +52,9 @@
     color: var(--scnd-color); 
     font-size: 2em;
     padding: 0px 20px;
+}
+.coding-img{
+    width: 25%;
+    height: auto;
+    padding-bottom: 2%;
 }
