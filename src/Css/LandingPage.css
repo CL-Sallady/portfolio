@@ -12,6 +12,23 @@
     object-position: 0 20%;
 }
 
+.land-hero{
+    border-radius: 0.5%;
+    object-fit: cover;
+    height: 75vh;
+    object-position: 0 20%;
+}
+.land-hero:hover{
+    animation: tilt-shaking 0.25s infinite;
+}
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(1deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-1deg); }
+    100% { transform: rotate(0deg); }
+  }
+
 .web-description{
     font-family: var(--main-ft);
 }
@@ -28,6 +45,10 @@
     padding: 10px 10px 20px 10px;
     border-radius: 2%;
     box-shadow: var(--scnd-color) 5px 5px;
+}
+.card:hover{
+    scale: 110%;
+    transition: .5s; 
 }
 .card-img{
     width: 100%;

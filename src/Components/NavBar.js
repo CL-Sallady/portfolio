@@ -1,6 +1,6 @@
 
 import '../Css/App.css';
-import { Switch } from 'antd'
+import { Switch, Tooltip } from 'antd'
 
 
 function NavBar({ setIsDevPage, setIsAboutPage, setIsArtPage, setThemeMod, themeMod }) {
@@ -29,10 +29,12 @@ function NavBar({ setIsDevPage, setIsAboutPage, setIsArtPage, setThemeMod, theme
             <button className='nav' onClick={()=>onNavClick('about')}>ABOUT ME</button>
             <button className='nav' onClick={()=>onNavClick('art')}>PERSONAL WORK</button>
         </div>
-        <Switch size='small' className={` ${switchColor} theme`} defaultChecked onChange={()=>{
-            if(themeMod === 'dark') setThemeMod('light');
-            if(themeMod === 'light') setThemeMod('dark');
-        }} />
+        <Tooltip title='Change theme' color='rgb(28, 28, 30);'>
+            <Switch size='small' className={` ${switchColor} theme`} defaultChecked onChange={()=>{
+                if(themeMod === 'dark') setThemeMod('light');
+                if(themeMod === 'light') setThemeMod('dark');
+            }} />
+        </Tooltip>
     </div>
   );
 }

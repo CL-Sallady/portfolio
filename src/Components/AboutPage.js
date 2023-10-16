@@ -32,6 +32,7 @@ function AboutPage({ theme }) {
             <img src={aboutHero} alt='Girl with short brown hair sitting on bed of plants while coding' />
             <p className='about-content'>{aboutMe}</p>
         </div>
+        <a className='social-icon resume' href={resume} target="_blank" rel="noreferrer"><SnippetsOutlined /> <p>View Resumé</p></a>
         <Divider plain className={`${dividerStyle} about-divider`}>SKILLS</Divider>
         <img className='coding-img' src={lapTop} alt={'Centered illustration of a computer with coding related imagery surrounding it.'} />
         <div className='skills-container'>
@@ -43,7 +44,6 @@ function AboutPage({ theme }) {
             <a className='social-icon' href='https://github.com/CL-Sallady' target="_blank" rel="noreferrer"><GithubOutlined /></a>
             <a className='social-icon' href='https://www.instagram.com/seachels_downunder' target="_blank" rel="noreferrer"><InstagramOutlined /></a>
             <a className='social-icon' href='mailto:clsallady@gmail.com'><MailOutlined /></a>
-            <a className='social-icon' href={resume} target="_blank" rel="noreferrer"><SnippetsOutlined /></a>
         </div>
     </div>
   );
