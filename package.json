@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://CL-Sallady.github.io/portfolio",
+  "homepage": "https://chelby-sallady.com/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
