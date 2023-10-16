@@ -37,7 +37,6 @@
 }
 
 .card-title{
-    color: var(--light) !important;
     font-size: 2em;
     font-family: var( --condensed-ft);
 }
@@ -45,15 +44,18 @@
 .card-title:hover{
     color: var(--scnd-color) !important;
     transition: .25s; 
+    cursor: pointer;
 }
 
 .dark-card{
-    color: var( --dark);
+    color: var( --dark) !important;
     background-color: var( --light);
 
   }
   .light-card{
-    color: var( --light);
+    color: var( --light) !important;
     background-color: var( --dark);
   }
-  
+  .card-link{
+    color: var(--scnd-color) !important;
+  }

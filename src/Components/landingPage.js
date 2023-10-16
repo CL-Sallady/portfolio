@@ -8,7 +8,7 @@ import hero from '../Media/ui_network.png'
 function LandingPage({ themeMod }) {
   const cardTheme = `card ${themeMod}-card`
   const renderProjectItems = projects?.map(project => {
-    return <ProjectItem theme={cardTheme} title={ project?.title } alt={ project?.alt } path={ project?.path } description={project?.description} />
+    return <ProjectItem theme={cardTheme} title={ project?.title } alt={ project?.alt } path={ project?.path } description={project?.description} link={project?.link}/>
   });
 
   const dividerStyle = `antd-divider ${themeMod}-divider`
@@ -19,7 +19,7 @@ function LandingPage({ themeMod }) {
       <Divider plain className={dividerStyle}> WEB DEVELOPMENT</Divider>
       <p className='web-description'>Click the title of each card to find out more about the project.</p> 
       <div className='card-container'>
-      {renderProjectItems}
+        {renderProjectItems}
       </div>
     </div>
   );
