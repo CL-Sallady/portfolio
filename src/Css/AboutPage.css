@@ -7,6 +7,10 @@
     /* display: flex; */
 }
 
+.about-content p{
+    padding-bottom: 10px;
+}
+
 .about-section img{
     width: 40%;
     height: 40%;
@@ -58,3 +62,11 @@
     height: auto;
     padding-bottom: 2%;
 }
+/* ----------------------------------------------------- */
+
+@media only screen and (max-width: 750px) {
+    .skills-container{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 15%;
+    }
+  }
