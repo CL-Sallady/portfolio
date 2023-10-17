@@ -59,13 +59,12 @@
 }
 .resume{
     display: flex;
-    float: left;
-    padding-left: 10%;
 }
 .resume p{
     font-size: 45% !important;
     padding: 30px 7px 7px 7px;
     font-family: var(--main-ft);
+    margin-bottom: 25px;
 }
 .coding-img{
     width: 25%;

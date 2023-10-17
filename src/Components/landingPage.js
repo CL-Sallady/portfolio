@@ -4,6 +4,7 @@ import { projects } from '../Media';
 import ProjectItem from './ProjectItem';
 import { Divider } from 'antd';
 import hero from '../Media/ui_network.png'
+// import motion from '../Media/motion-graphics/Programming.aep'
 
 function LandingPage({ themeMod }) {
   const cardTheme = `card ${themeMod}-card`

@@ -30,9 +30,9 @@ function AboutPage({ theme }) {
         <h1 className='about-title'>About the Developer</h1>
         <div className='about-section'>
             <img src={aboutHero} alt='Girl with short brown hair sitting on bed of plants while coding' />
+            <a className='social-icon resume' href={resume} target="_blank" rel="noreferrer"><SnippetsOutlined /> <p>View Resumé</p></a>
             <p className='about-content'>{aboutMe}</p>
         </div>
-        <a className='social-icon resume' href={resume} target="_blank" rel="noreferrer"><SnippetsOutlined /> <p>View Resumé</p></a>
         <Divider plain className={`${dividerStyle} about-divider`}>SKILLS</Divider>
         <img className='coding-img' src={lapTop} alt={'Centered illustration of a computer with coding related imagery surrounding it.'} />
         <div className='skills-container'>
