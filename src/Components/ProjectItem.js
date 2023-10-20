@@ -5,7 +5,7 @@ function ProjectItem({ theme, title, alt, path, description, link, website }) {
     const popoverContent = (
         <div>
           <p className='card-description'>{description}</p>
-          {link && !website ? <a className='card-link' href={link} target='_blank' rel="noreferrer">Link to Repository</a> : <a className='card-link' href={website} target='_blank' rel="noreferrer">Link to website</a> }
+          {link && !website ? <a className='card-link' href={link} target='_blank' rel="noreferrer">Link to Repository</a> : <a className='card-link' href={website} target='_blank' rel="noreferrer">Link to Website</a> }
         </div>
       );
   return (
