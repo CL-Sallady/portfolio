@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.028670a3.css",
-    "main.js": "/static/js/main.85fc197b.js",
+    "main.css": "/static/css/main.2186749a.css",
+    "main.js": "/static/js/main.40363606.js",
+    "static/media/motion_graphic.gif": "/static/media/motion_graphic.f5fb4a903235bf110e26.gif",
+    "static/media/vid_communityCookbook.gif": "/static/media/vid_communityCookbook.b111c6aa1d925f717d1b.gif",
     "static/media/vid_githubOrgSearch.gif": "/static/media/vid_githubOrgSearch.0a4e367aec426c3271f4.gif",
     "static/media/photo-11.jpeg": "/static/media/photo-11.0f3bdf3219e1a22d5e91.jpeg",
     "static/media/photo-18.jpeg": "/static/media/photo-18.bd80796d78afc25c271d.jpeg",
@@ -14,7 +16,6 @@
     "static/media/photo-24.jpeg": "/static/media/photo-24.7e965ceb1622e850df64.jpeg",
     "static/media/photo-10.jpeg": "/static/media/photo-10.56f064bbe3b929307682.jpeg",
     "static/media/photo-17.jpeg": "/static/media/photo-17.9a5ad041bf7a48232fe1.jpeg",
-    "static/media/vid_dailyCalendar.gif": "/static/media/vid_dailyCalendar.1d6f3e79592a5d5dd92a.gif",
     "static/media/photo-19.jpeg": "/static/media/photo-19.c2f60f396e1b30c14a40.jpeg",
     "static/media/vid_passwordGenerator.gif": "/static/media/vid_passwordGenerator.c13a5d450f4b6719087a.gif",
     "static/media/vid_jsQuiz.gif": "/static/media/vid_jsQuiz.8b43a7e14cad8c4fbbbe.gif",
@@ -26,7 +27,6 @@
     "static/media/photo-2.jpeg": "/static/media/photo-2.8d7b0898751a5d284e4a.jpeg",
     "static/media/photo-7.jpeg": "/static/media/photo-7.63ef6bad528e9a40409f.jpeg",
     "static/media/photo-14.jpeg": "/static/media/photo-14.1223e8231a445ec79c55.jpeg",
-    "static/media/ui_network.png": "/static/media/ui_network.ea2af1358980a76bbb51.png",
     "static/media/photo-21.jpeg": "/static/media/photo-21.2f8b07a7ba8f3ca0f148.jpeg",
     "static/media/photo-16.jpeg": "/static/media/photo-16.9c6057f3fa92512dbe2d.jpeg",
     "static/media/photo-12.jpeg": "/static/media/photo-12.bc66c76167d73d48866c.jpeg",
@@ -35,11 +35,11 @@
     "static/media/CLSallady_Resume.pdf": "/static/media/CLSallady_Resume.bced3a2de78c30298ba0.pdf",
     "static/media/coding.svg": "/static/media/coding.c9953637c257c53a2822f885b9af64d5.svg",
     "index.html": "/index.html",
-    "main.028670a3.css.map": "/static/css/main.028670a3.css.map",
-    "main.85fc197b.js.map": "/static/js/main.85fc197b.js.map"
+    "main.2186749a.css.map": "/static/css/main.2186749a.css.map",
+    "main.40363606.js.map": "/static/js/main.40363606.js.map"
   },
   "entrypoints": [
-    "static/css/main.028670a3.css",
-    "static/js/main.85fc197b.js"
+    "static/css/main.2186749a.css",
+    "static/js/main.40363606.js"
   ]
 }
