@@ -4,7 +4,7 @@ import mmConverter from './vid_milimeterConverter.gif'
 import passwordGenerator from './vid_passwordGenerator.gif';
 import weatherDashboard from './vid_weatherDashboard.gif';
 import jsQuiz from './vid_jsQuiz.gif';
-import dailyCalendar  from './vid_dailyCalendar.gif';
+import communityCookbook  from './vid_communityCookbook.gif';
 // artwork imports------------------------------------------
 import photo1 from './personalWork/photo-1.jpeg';
 import photo2 from './personalWork/photo-2.jpeg';
@@ -31,24 +31,34 @@ import photo26 from './personalWork/photo-26.jpeg';
 
 export const projects = [
     {
-        title: 'React Millimeter Converter',
-        path: mmConverter,
-        alt: 'A gif of a wepage containing a simple input box that converts inches to millimeters',
-        description: 'What may look like a simple converter of inches to millimeters actually is a refined React application that is a fully executable app. When the Electron.js command is run on windows, it will create a .exe file that can be run as an app with no internet. This application was created for a CAD designer who needed something small and simple that could be kept open at all times separate from the normal chrome windows they had open.',
-        link: 'https://github.com/Sea-Chels/aarons-converter',
-    },
-    {
         title: 'React Github Repository Search',
         path: githubSearch,
         alt: 'soon to be project',
-        description: 'This React.js application\'s purpose was to be able to show the integration of a third-party api (github\'s repository search api) and a working React application. This application uses asynchronous API calls to fetch results dynamically.',
+        description: 'This React.js application\'s purpose was to be able to show the integration of a third-party api (github\'s repository search api) and a working React application. This application uses asynchronous API calls to fetch results dynamically. This app uses React, Javascript, Express, and github pages.',
+        website: 'https://Sea-Chels.github.io/Github-Org-Search-App',
         link: 'https://github.com/Sea-Chels/Github-Org-Search-App',
+    },
+    {
+        title: 'Community Cookbook',
+        path: communityCookbook,
+        alt: 'community cookbook',
+        description: 'The community Cookbook, where you can research recipes based on ingredients in your home, and checkout the authors favorite recipes! I compleeted a majority for of the styling for the website. This website uses mongoDb, React, Express, Apollo Provider, and graphQL.',
+        link: 'https://github.com/pjkingsley/Group_Project_3',
+    },
+    {
+        title: 'React Millimeter Converter',
+        path: mmConverter,
+        alt: 'A gif of a wepage containing a simple input box that converts inches to millimeters',
+        description: 'A simple converter of inches to millimeters. When the Electron.js command is run on windows, it will create a .exe file that can be run as an app with no internet. This application was created for a CAD designer who needed something small and simple that could be kept open at all times separate from the normal chrome windows they had open. This app uses Electron, React, Javascript, and gihub pages.',
+        website: 'https://sea-chels.github.io/aarons-converter/',
+        link: 'https://github.com/Sea-Chels/aarons-converter',
     },
     {
         title: 'Password Generator',
         path: passwordGenerator,
         alt: 'An input box on a webpage that has a popup box asking what you want in your password, then generates it based on user input.',
         description: 'This simple password generator uses several confirm prompt boxes to confirm whether or not to use numbers, symbols, capital letters, and lowercase letters within the password, then generates a password based on the user input.',
+        website: 'https://sea-chels.github.io/Password-Generator/',
         link: 'https://github.com/Sea-Chels/Password-Generator',
     },
     {
@@ -56,21 +66,15 @@ export const projects = [
         path: weatherDashboard,
         alt: 'A weather dashboard',
         description: 'This aesthetic weather dashboard gives you the weather for any U.S. city, as well as the following five day forcast, UV index, temperature, wind speed, and humidity. This application uses a third-party weather API.',
+        website: 'https://sea-chels.github.io/Weather-Dashboard/',
         link: 'https://github.com/Sea-Chels/Weather-Dashboard',
     },
     {
         title: 'JavaScript Quiz',
         path: jsQuiz,
         alt: 'soon to be project',
-        description: 'A simple Javascript syntax quiz with a few questions thrown in there for fun. This question uses simple Javascript comparisons to check if the answers were correct, shuffle the questions, calculate score, and shuffle the answers in each question to make it slightly more difficult.',
+        description: 'A simple Javascript syntax quiz with a few questions thrown in there for fun. This question uses simple Javascript comparisons to check if the answers were correct, shuffle the questions, calculate score, and shuffle the answers in each question to make it slightly more difficult. This website uses Vanilla Javascript.',
         link: 'https://github.com/Sea-Chels/JS-Quiz',
-    },
-    {
-        title: 'Daily Planner',
-        path: dailyCalendar,
-        alt: 'hourly calendar',
-        description: 'This daily planner, while not the most aesthetic piece, is a simple habit tracker, where you can write your goals for each hour of the work day using vanilla Javascript to write new tasks to the page.',
-        link: 'https://github.com/Sea-Chels/Daily-Planner',
     }
 ];
 

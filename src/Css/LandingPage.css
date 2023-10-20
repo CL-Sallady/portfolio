@@ -37,7 +37,7 @@
     box-shadow: var(--scnd-color) 5px 5px;
 }
 .card:hover{
-    scale: 110%;
+    scale: 115%;
     transition: .5s; 
 }
 .card-img{
