@@ -26,9 +26,9 @@
     font-family: var(--display-ft);
     font-size: 250%;
     padding-bottom: 2px;
-    margin: 0px 35% 3% 35%;
-    border-bottom:  2px solid var(--scnd-color);
+    margin: 0px 35% 3% 35%; 
     border-radius: 5%;
+    padding-top: 30px;
 }
 .about-content{
     line-height: 25px;
@@ -51,20 +51,17 @@
 .skill-object p{
     padding-left: 5px;
 }
-
 .social-icon{
     color: var(--scnd-color); 
     font-size: 2em;
     padding: 0px 20px;
 }
-.resume{
+.view-resume {
     display: flex;
+    justify-content: right;
 }
-.resume p{
-    font-size: 45% !important;
-    padding: 30px 7px 7px 7px;
-    font-family: var(--main-ft);
-    margin-bottom: 25px;
+.resume{
+    padding: 20px 50px 10px 10px
 }
 .coding-img{
     width: 25%;

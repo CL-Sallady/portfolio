@@ -6,8 +6,8 @@
     font-family: var(--display-ft);
     font-size: 250%;
     margin: 0px 35% 3% 35%;
-    border-bottom:  2px solid var(--scnd-color);
     border-radius: 5%;
+    padding-top: 30px;
 }
 
 .art-content{

@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className={appClasses.join(' ')}>
-      <NavBar setIsDevPage={setIsDevPage} setIsAboutPage={setIsAboutPage} setIsArtPage={setIsArtPage} setThemeMod={setThemeMod} themeMod={themeMod}/> 
+      <NavBar setIsDevPage={setIsDevPage} setIsAboutPage={setIsAboutPage} setIsArtPage={setIsArtPage} setThemeMod={setThemeMod} themeMod={themeMod} isDevPage={isDevPage} /> 
       {isDevPage ? <LandingPage themeMod={themeMod} /> : ''}
       {isAboutPage ? <AboutPage theme={themeMod} /> : ''}
       {isArtPage ? <ArtPage themeMod={themeMod} /> : ''}

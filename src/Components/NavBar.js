@@ -1,9 +1,10 @@
 
 import '../Css/App.css';
 import { Switch, Tooltip } from 'antd'
+import ScrollIntoView from 'react-scroll-into-view'
 
 
-function NavBar({ setIsDevPage, setIsAboutPage, setIsArtPage, setThemeMod, themeMod }) {
+function NavBar({ setIsDevPage, setIsAboutPage, setIsArtPage, setThemeMod, themeMod, isDevPage}) {
     const onNavClick = (button) => {
         if(button === 'dev'){
             setIsDevPage(true);
@@ -25,7 +26,9 @@ function NavBar({ setIsDevPage, setIsAboutPage, setIsArtPage, setThemeMod, theme
     <div className="NavBar">
         <div className='home-identifier'>Chelby Sallady</div>
         <div className='nav-buttons'>
-            <button className='nav' onClick={()=>onNavClick('dev')}>WEB PROJECTS</button>
+            { isDevPage ? ( <ScrollIntoView className='nav-scroll-container' selector="#web-projects">
+                <button className='nav'>WEB PROJECTS</button>
+            </ScrollIntoView>) : (<button className='nav' onClick={()=>onNavClick('dev')}>WEB PROJECTS</button>)}
             <button className='nav' onClick={()=>onNavClick('about')}>ABOUT ME</button>
             <button className='nav' onClick={()=>onNavClick('art')}>PERSONAL WORK</button>
         </div>

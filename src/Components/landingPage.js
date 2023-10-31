@@ -20,7 +20,7 @@ function LandingPage({ themeMod }) {
       <img className='land-hero' src={hero} alt='corporate illustration of a front end computer process' />
       <Divider plain className={dividerStyle}> WEB DEVELOPMENT</Divider>
       <p className='web-description'>Hover over the title of each card to find out more about the project.</p> 
-      <div className='card-container'>
+      <div id='web-projects' className='card-container'>
         {renderProjectItems}
       </div>
     </div>
