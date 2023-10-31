@@ -75,7 +75,7 @@ export const projects = [
         alt: 'soon to be project',
         description: 'A simple Javascript syntax quiz with a few questions thrown in there for fun. This question uses simple Javascript comparisons to check if the answers were correct, shuffle the questions, calculate score, and shuffle the answers in each question to make it slightly more difficult. This website uses Vanilla Javascript.',
         link: 'https://github.com/Sea-Chels/JS-Quiz',
-    }
+    },
 ];
 
 export const artworks = [

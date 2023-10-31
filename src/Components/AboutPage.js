@@ -43,7 +43,7 @@ function AboutPage({ theme }) {
             <a className='social-icon' href='https://www.linkedin.com/in/chelby-sallady-9b5bbb148/' target="_blank" rel="noreferrer"><LinkedinOutlined /></a>
             <a className='social-icon' href='https://github.com/CL-Sallady' target="_blank" rel="noreferrer"><GithubOutlined /></a>
             <a className='social-icon' href='https://www.instagram.com/seachels_downunder' target="_blank" rel="noreferrer"><InstagramOutlined /></a>
-            <a className='social-icon' href='mailto:clsallady@gmail.com'><MailOutlined /></a>
+            <a className='social-icon' href='mailto:chelby.sallady@gmail.com'><MailOutlined /></a>
         </div>
     </div>
   );

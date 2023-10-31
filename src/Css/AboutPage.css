@@ -27,7 +27,7 @@
     font-size: 250%;
     padding-bottom: 2px;
     margin: 0px 35% 3% 35%;
-    border-bottom:  2px solid rgb(255, 128, 108);
+    border-bottom:  2px solid var(--scnd-color);
     border-radius: 5%;
 }
 .about-content{
