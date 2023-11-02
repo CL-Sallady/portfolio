@@ -11,7 +11,7 @@ function ProjectItem({ theme, title, alt, path, description, link, website }) {
   return (
     <div className={theme}>
       <img className='card-img' src={path} alt={alt} />
-      <Popover title={title} overlayStyle={{ width: "30vw" }}placement="top" content={popoverContent}>
+      <Popover title={title} overlayStyle={{ width: "30vw" }} placement="top" content={popoverContent}>
         <h4 className={`card-title`}>{title}</h4>
       </Popover>
     </div>

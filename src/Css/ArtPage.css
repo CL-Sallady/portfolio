@@ -22,3 +22,12 @@
     border-radius: 10px;
     transition: .5s;
 }
+
+/* _____________________ */
+
+@media only screen and (max-width: 750px) {
+    .art-title{
+        font-size: 200%;
+        margin: 0px 20% 3% 20%; 
+    }
+  }

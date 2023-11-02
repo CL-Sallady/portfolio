@@ -58,7 +58,7 @@
 }
 .view-resume {
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 .resume{
     padding: 20px 50px 10px 10px
@@ -74,5 +74,19 @@
     .skills-container{
         grid-template-columns: 1fr 1fr;
         padding-left: 15%;
+    }
+    .view-resume {
+        display: flex;
+        justify-content: center;
+    }
+    .about-title{
+        font-size: 200%;
+        margin: 0px 20% 3% 20%; 
+    }
+  }
+  @media only screen and (max-width: 1375px) {
+    .view-resume {
+        display: flex;
+        justify-content: center;
     }
   }

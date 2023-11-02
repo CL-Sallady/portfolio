@@ -42,7 +42,7 @@ export const projects = [
         title: 'Community Cookbook',
         path: communityCookbook,
         alt: 'community cookbook',
-        description: 'The community Cookbook, where you can research recipes based on ingredients in your home, and checkout the authors favorite recipes! I compleeted a majority for of the styling for the website. This website uses mongoDb, React, Express, Apollo Provider, and graphQL.',
+        description: 'The community Cookbook, where you can research recipes based on ingredients in your home, and checkout the authors favorite recipes! I completed a majority for of the styling for the website. This website uses mongoDb, React, Express, Apollo Provider, and graphQL.',
         link: 'https://github.com/pjkingsley/Group_Project_3',
     },
     {
