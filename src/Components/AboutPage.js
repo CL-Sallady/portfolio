@@ -39,7 +39,7 @@ function AboutPage({ theme }) {
         </div>
         <Divider plain className={`${dividerStyle} about-divider`}>CONTACT ME</Divider>
         <div className='contact-container'>
-            <a className='social-icon' href='https://www.linkedin.com/in/chelby-sallady-9b5bbb148/' target="_blank" rel="noreferrer"><LinkedinOutlined /></a>
+            <a className='social-icon' href='https://www.linkedin.com/in/chelby-sallady/' target="_blank" rel="noreferrer"><LinkedinOutlined /></a>
             <a className='social-icon' href='https://github.com/Sea-Chels' target="_blank" rel="noreferrer"><GithubOutlined /></a>
             <a className='social-icon' href='https://www.instagram.com/seachels_downunder' target="_blank" rel="noreferrer"><InstagramOutlined /></a>
             <a className='social-icon' href='mailto:chelby.sallady@gmail.com'><MailOutlined /></a>
