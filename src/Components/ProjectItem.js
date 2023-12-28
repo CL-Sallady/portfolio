@@ -10,7 +10,7 @@ function ProjectItem({ theme, title, alt, path, description, link, website }) {
         <br></br>
         <p className='card-left'>{description}</p>
         <br></br>
-        {link && !website ? <a href={link} className='card-left card-link'><GithubOutlined /> View Code </a> : <a className='card-left card-link' href={website}><ArrowRightOutlined /> Visit Website</a>}
+        {link && !website ? <a href={link} className='card-left card-link' target="_blank" rel="noreferrer"><GithubOutlined /> View Code </a> : <a className='card-left card-link' href={website}target="_blank" rel="noreferrer" ><ArrowRightOutlined /> Visit Website</a>}
       </div>
     </div>
   );

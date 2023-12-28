@@ -11,8 +11,8 @@ To get started using this repository, please see the details below.
 In order to run this on your local machine, you will need to install all of the dependencies associated with this project. Some dependencies include but are not limited to: 
 
     - React / React DOM
-    - Masonry npm package
     - Ant Design UI package
+    - NPM 
 
 ### `npm start`
 
@@ -20,4 +20,6 @@ Run npm start to start the application up. You will see any lint errors in the c
 
 ### Usage
 
-This is used as a simple and aesthetic portfolio website to display the strengths of an individual. Use the format freely. 
+This is used as a simple and aesthetic portfolio website to display the strengths of an individual. Use the format freely, all artwork in this repository belongs to the artist and the artist alone.
+
+Any usage of the artwork in this repository commercial or otherwise is strictly prohibited.
