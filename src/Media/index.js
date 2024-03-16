@@ -33,7 +33,7 @@ export const projects = [
     {
         title: 'React Github Repository Search',
         path: githubSearch,
-        alt: 'soon to be project',
+        alt: 'Github Repository search',
         description: 'This React.js application\'s purpose was to be able to show the integration of a third-party api (github\'s repository search api) and a working React application. This application uses asynchronous API calls to fetch results dynamically. This app uses React, Javascript, Express, and github pages.',
         website: 'https://Sea-Chels.github.io/Github-Org-Search-App',
         link: 'https://github.com/Sea-Chels/Github-Org-Search-App',
