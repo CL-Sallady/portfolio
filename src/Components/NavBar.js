@@ -27,10 +27,10 @@ function NavBar({ setIsDevPage, setIsAboutPage, setIsArtPage, setThemeMod, theme
         <div className='home-identifier'>Chelby Sallady</div>
         <div className='nav-buttons'>
             { isDevPage ? ( <ScrollIntoView className='nav-scroll-container' selector="#web-projects">
-                <button className='nav'>WEB PROJECTS</button>
+                <button className='nav'>WORK</button>
             </ScrollIntoView>) : (<button className='nav' onClick={()=>onNavClick('dev')}>WEB PROJECTS</button>)}
             <button className='nav' onClick={()=>onNavClick('about')}>ABOUT ME</button>
-            <button className='nav' onClick={()=>onNavClick('art')}>PERSONAL WORK</button>
+            <button className='nav' onClick={()=>onNavClick('art')}>ILLUSTRATION</button>
         </div>
         <Tooltip title='Change theme' color='rgb(28, 28, 30);'>
             <Switch size='small' className={` ${switchColor} theme`} defaultChecked onChange={()=>{

@@ -10,9 +10,6 @@
     object-position: 0 20%;
 }
 
-/* .web-description{
-    font-family: var(--main-ft);
-} */
 .project-container{
     padding-bottom: 5%;
     width: 100%;    
@@ -24,33 +21,33 @@
 
 .card{
     padding: 10px;
-    margin: 2%; 
-    border-radius: 0% 10%;
-    box-shadow: var(--scnd-color) 5px 5px;
+    margin: 5px; 
     transition: .7s;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
-    width: 40vw;
+    height: 40vh;
+    width: 30vw;
+    padding: 25px 5px;
+    &:hover{
+        scale: 105%;
+        transition: .7s; 
+        animation-name: float;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        border: solid 5px var(--scnd-color);
+    }
 }
-.card:hover{
-    scale: 110%;
-    transition: .7s; 
-    animation-name: float;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
+
 .card-img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
-    border-radius: 2% 2% 2% 12%;
+    border: solid var(--light) 5px;
+    border-radius: 2%;
     align-self: center;
 }
 
 .card-title{
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: var( --condensed-ft);
     margin: 0% 5%;
     line-height: 35px;
@@ -58,15 +55,25 @@
 
 .card-left{
     text-align: left;
-    margin-left: 5%;
 }
 .card-link{
     text-decoration: none;
-    color: var(--scnd-color) !important;
-    font-size: 1.3em;
-    float: left;
-    padding-bottom: 5px;
-    
+    &:hover{
+        border-color: var(--scnd-color) !important;
+        color: var(--scnd-color) !important;
+    } 
+}
+.card-link-primary{
+    color: var(--light) !important;
+    background-color: var(--scnd-color);
+    &:hover{
+        border-color: var(--scnd-color) !important;
+        color: var(--scnd-color) !important;
+    } 
+}
+
+p{
+    font-family: var(--main-ft);
 }
 
 .card-link:hover{
@@ -78,6 +85,10 @@
     background-color: var( --light);
 
   }
+.dark-card img {
+    border: solid var(--dark) 5px;
+    border-radius: 2%;
+}
 .light-card{
     color: var( --light) !important;
     background-color: var( --dark);

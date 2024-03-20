@@ -1,10 +1,10 @@
 .AboutPage{
     padding: 0px 0px 50px 0px;
-    scroll-snap-type: x;
+    /* height: 100vh; */
+
 }
 .about-section{
     padding: 0px 10%;
-    /* display: flex; */
 }
 
 .about-content p{
@@ -42,6 +42,33 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10%;
     font-family: var(--main-ft);
+}
+
+.about-button{
+    float: left;
+    margin: 0px 10px 15px 10px;
+    padding: 5px;
+    &:hover{
+        transition: 0s !important;
+        background-color: var(--scnd-color) !important;
+        color: var(--light) !important;
+        border-color: var(--scnd-color) !important;
+    }
+}
+
+.dark-button{
+    background-color: var(--dark);
+    color: var(--light);
+}
+.light-button{
+    background-color: var(--light);
+    color: var(--scnd-color);
+}
+
+
+.contact-blurb{
+    font-family: var(--main-ft);
+    margin: 10px 20% 10px 20%
 }
 .skill-object{
     display: flex;

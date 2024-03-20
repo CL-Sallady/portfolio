@@ -2,6 +2,11 @@
     font-family: var(--main-ft);
     padding-bottom: 2%;
 }
+
+.spin-container{
+    height: 90vh;
+}
+
 .art-title{
     font-family: var(--display-ft);
     font-size: 250%;
