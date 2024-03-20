@@ -28,7 +28,7 @@ function NavBar({ setIsDevPage, setIsAboutPage, setIsArtPage, setThemeMod, theme
         <div className='nav-buttons'>
             { isDevPage ? ( <ScrollIntoView className='nav-scroll-container' selector="#web-projects">
                 <button className='nav'>WORK</button>
-            </ScrollIntoView>) : (<button className='nav' onClick={()=>onNavClick('dev')}>WEB PROJECTS</button>)}
+            </ScrollIntoView>) : (<button className='nav' onClick={()=>onNavClick('dev')}>WORK</button>)}
             <button className='nav' onClick={()=>onNavClick('about')}>ABOUT ME</button>
             <button className='nav' onClick={()=>onNavClick('art')}>ILLUSTRATION</button>
         </div>
