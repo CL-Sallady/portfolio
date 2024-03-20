@@ -1,7 +1,7 @@
 import '../Css/AboutPage.css';
 import { Divider, Button } from 'antd';
 import { CheckSquareOutlined, LinkedinOutlined, GithubOutlined, InstagramOutlined, MailOutlined, SnippetsOutlined } from '@ant-design/icons';
-import aboutHero from '../Media/about-hero.jpg';
+import aboutHero from '../Media/about-hero.png';
 import lapTop from '../Media/coding.svg';
 import resume from '../Media/CLSallady_Resume.pdf';
 

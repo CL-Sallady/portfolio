@@ -5,7 +5,7 @@ import passwordGenerator from './vid_passwordGenerator.gif';
 import weatherDashboard from './vid_weatherDashboard.gif';
 import jsQuiz from './vid_jsQuiz.gif';
 import communityCookbook  from './vid_communityCookbook.gif';
-import artistPortfolio from './artist-portfolio.png';
+import artistPortfolio from './artist-portfolio.gif';
 // artwork imports------------------------------------------
 import photo1 from './personalWork/photo-1.jpeg';
 import photo2 from './personalWork/photo-2.jpeg';
