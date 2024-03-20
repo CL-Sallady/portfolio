@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3de6f8f4.css",
-    "main.js": "/static/js/main.61daf770.js",
-    "static/media/artist_portfolio.gif": "/static/media/artist_portfolio.f324ecac18b2591899c9.gif",
+    "main.css": "/static/css/main.d25bb936.css",
+    "main.js": "/static/js/main.e9d1dcdc.js",
     "static/media/motion_graphic.gif": "/static/media/motion_graphic.f5fb4a903235bf110e26.gif",
     "static/media/vid_communityCookbook.gif": "/static/media/vid_communityCookbook.b111c6aa1d925f717d1b.gif",
-    "static/media/vid_githubOrgSearch.gif": "/static/media/vid_githubOrgSearch.0a4e367aec426c3271f4.gif",
-    "static/media/about-hero.png": "/static/media/about-hero.74cd542f6a1402e37ce6.png",
+    "static/media/artist-portfolio.png": "/static/media/artist-portfolio.80f2b49ac3c914c17556.png",
     "static/media/photo-11.jpeg": "/static/media/photo-11.0f3bdf3219e1a22d5e91.jpeg",
     "static/media/photo-18.jpeg": "/static/media/photo-18.bd80796d78afc25c271d.jpeg",
     "static/media/vid_weatherDashboard.gif": "/static/media/vid_weatherDashboard.6cca001245f4d55fb88e.gif",
     "static/media/photo-6.jpeg": "/static/media/photo-6.044d57bb0053b69408be.jpeg",
+    "static/media/vid_githubOrgSearch.gif": "/static/media/vid_githubOrgSearch.23c72b87455b4a0f9f6d.gif",
     "static/media/photo-25.jpeg": "/static/media/photo-25.24c8dacb4584bd305f4a.jpeg",
     "static/media/photo-13.jpeg": "/static/media/photo-13.4fc7a8ff8111bb30b0d4.jpeg",
     "static/media/photo-26.jpeg": "/static/media/photo-26.6180fc7dd9f399e4712b.jpeg",
@@ -23,6 +22,7 @@
     "static/media/vid_jsQuiz.gif": "/static/media/vid_jsQuiz.8b43a7e14cad8c4fbbbe.gif",
     "static/media/photo-5.jpeg": "/static/media/photo-5.1f723dc7e96b6da78c29.jpeg",
     "static/media/photo-9.jpeg": "/static/media/photo-9.11fe278ac0d18332956f.jpeg",
+    "static/media/about-hero.jpg": "/static/media/about-hero.6e5bc5a25b7c8763c314.jpg",
     "static/media/photo-22.jpeg": "/static/media/photo-22.d26e64fd473ceb8c6a10.jpeg",
     "static/media/photo-4.jpeg": "/static/media/photo-4.9daa4ad242970f21c0a0.jpeg",
     "static/media/photo-2.jpeg": "/static/media/photo-2.8d7b0898751a5d284e4a.jpeg",
@@ -32,15 +32,15 @@
     "static/media/photo-16.jpeg": "/static/media/photo-16.9c6057f3fa92512dbe2d.jpeg",
     "static/media/photo-12.jpeg": "/static/media/photo-12.bc66c76167d73d48866c.jpeg",
     "static/media/photo-23.jpeg": "/static/media/photo-23.2390b92b5c4bdeb6fa5f.jpeg",
-    "static/media/vid_milimeterConverter.gif": "/static/media/vid_milimeterConverter.5dc0bc59aa3a300a6451.gif",
     "static/media/CLSallady_Resume.pdf": "/static/media/CLSallady_Resume.dfcc456c112fb1891383.pdf",
+    "static/media/vid_milimeterConverter.gif": "/static/media/vid_milimeterConverter.2681b3ba0555ce7c28e6.gif",
     "static/media/coding.svg": "/static/media/coding.c9953637c257c53a2822f885b9af64d5.svg",
     "index.html": "/index.html",
-    "main.3de6f8f4.css.map": "/static/css/main.3de6f8f4.css.map",
-    "main.61daf770.js.map": "/static/js/main.61daf770.js.map"
+    "main.d25bb936.css.map": "/static/css/main.d25bb936.css.map",
+    "main.e9d1dcdc.js.map": "/static/js/main.e9d1dcdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3de6f8f4.css",
-    "static/js/main.61daf770.js"
+    "static/css/main.d25bb936.css",
+    "static/js/main.e9d1dcdc.js"
   ]
 }
